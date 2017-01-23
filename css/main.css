@@ -1,0 +1,17 @@
+body {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.active {
+    background: #0081C6;
+}
+
+main {
+    background: white;
+}
+
+.slider {
+    padding: 30px;
+}
