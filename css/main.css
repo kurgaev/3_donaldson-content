@@ -1,0 +1,51 @@
+main {
+	max-width: 971px;
+	min-width: 366px;
+	margin: auto;
+    background: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 15px;    
+}
+
+h1 {
+    font-size: 19px;
+    font-weight: bold; 
+}
+
+.slider {
+    padding: 30px;
+}
+
+.grid {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid img {
+    display: block;
+    margin: 0 auto;
+}
+
+.about {
+    padding: 10px;
+}
+
+.about h1 {
+    background: #c0c0c0;
+    display: block;
+    margin: 0 -15px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+}
+
+.about p {
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+}

@@ -1,7 +1,3 @@
-/********************/
-/* header (footer?) */
-/********************/
-
 body {
 	background-image: url(../images/bg.png); 
 	color: white;
@@ -10,13 +6,10 @@ body {
 	box-sizing: border-box;
 }
 
-.wrapper {
+header, footer {
 	max-width: 971px;
 	min-width: 366px;
 	margin: auto;
-}
-
-header {
     background: #0081C6;
 }
 
@@ -95,7 +88,6 @@ header {
 	background: #57c0ff;
 	text-decoration: none;
 	color: white;
-	
 }
 
 .menu {
@@ -191,44 +183,7 @@ header {
     background: #0081C6;
 }
 
-/*********/
-/* index */
-/*********/
 
-main {
-    background: white;
-    color: black;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    z-index: -100;
-}
-
-.slider {
-    padding: 30px;
-}
-
-.row1 {
-    clear: both;
-    //display: block;
-    //position: relative;
-}
-
-.row2 h1 {
-    font-size: 19px;
-    font-weight: bold;
-}
-
-figure {
-    text-align: center;
-}
-
-.row2, .row3, .row4 {
-    margin-bottom: 20px;
-}
-
-/************/
-/* ADAPTIVE */
-/************/
 
 @media screen and (max-width: 768px) {
   .top {
