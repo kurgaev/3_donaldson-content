@@ -27,21 +27,18 @@ h1 {
     margin: 0 auto;
 }
 
-.about {
-    padding: 10px;
-}
-
 .about h1 {
     background: #c0c0c0;
     display: block;
-    margin: 0 -15px;
+    margin: 0 -15px 25px -15px;
     height: 50px;
     line-height: 50px;
     padding-left: 30px;
+    
 }
 
 .about p {
-    
+    margin: 0 20px 0 20px;
 }
 
 
