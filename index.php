@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
     <link rel="stylesheet" href="css/header_footer.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>TITLE</title>
+    <title>Продукция Donaldson - представительство Дональдсон в Санкт-Петребурге</title>
 </head>
 <body>
     <?php include ("header.php"); ?>
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="about col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="graybox col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h1>О компании</h1>
                 <p>Компания Donaldson (Donaldson Filtration Solutions) была образована в 1915 году в США. Основателем компании является Фрэнк Дональдсон - человек, который разработал первый фильтр для двигателей внутреннего сгорания. В 1915 году штат компании состоял всего из трех человек.</p>
                 <p>Сегодня Donaldson Company Inc. является мировым лидером в производстве фильтров, глушителей и их компонентов для автомобилей (грузовики, автобусы), сельскохозяйственной техники (комбайны, трактора и др.), строительной и дорожно-строительной техники (автокраны, грейдеры, асфальтоукладчики, катки и др.), спецтехники (погрузчики, карьерная и портовая техника и др.). Кроме этого компания разрабатывает и выпускает комплексные решения для промышленных систем фильтрации.</p>
@@ -57,6 +57,73 @@
                 <p>Donaldson Company Inc. является членом S&P, MidCap 400 и Russell 1000. Акции котируются на Нью-Йоркской фондовой бирже под символом DCI.</p>
             </div>
         </div>
+        <div class="row">
+            <div class="graybox col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1>Условия поставки</h1>
+                <span>Порядок оплаты</span>
+                <p>Базис цены: на складе Поставщика г.Санкт-Петербург.</p>
+                <p>Оплата: 100% предоплата.</p>
+                <span>Порядок поставки товаров</span>
+                <p>Отгрузка производится: в течение 5 рабочих дней с момента оплаты товара.</p>
+                <span>Доставка товаров</span>
+                <p>1. Возможна отгрузка через ТК (транспортную компанию).</p>
+                <p>2. Возможна доставка Курьерской службой по Санкт-Петербургу и Ленинградской области.</p>
+            </div>
+        </div>        
+        <div class="row bluebox">
+            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-lg-offset-1">
+                <img src="images/3.png" alt="">
+            </div>
+            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                <h1>Закажите бесплатный расчет стоимости заказа!</h1>
+                <p>Мы свяжемся с вами и выполним расчет в катчайшие сроки</p>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div class="button2"><a href="#">Оформить заявку</a></div>
+                <!--
+                <img class="button" src="images/img0005.png" alt="">
+                -->
+            </div>
+        </div> 
+        <div class="row whitebox">
+            <h1>Как мы работаем</h1>
+            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-2 col-lg-offset-1">
+                <h6>1</h6>
+                <img src="/images/img0217.png" alt="">                
+                <p><strong>Заявка - запрос коммерческого предложения</strong></p>
+                <p>Поставьте нам задачу любым удобным для Вас способом</p>
+            </div>    
+            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-2">
+                <h6>2</h6>
+                <img src="/images/img0217.png" alt="">                
+                <p><strong>Выезд специалиста</strong></p>
+                <p>по СПб и ЛО в течении 24ч с момента обращения</p>
+            </div>                    
+            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-2">
+                <h6>3</h6>      
+                <img src="/images/img0217.png" alt="">                
+                <p><strong>Технико-экономическое обоснование</strong></p>
+            </div>                
+            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-2">
+                <h6>4</h6>
+                <img src="/images/img0217.png" alt="">                
+                <p><strong>Предоставление КП</strong></p>
+            </div>                    
+            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-3">
+                <h6>5</h6>
+                <p><strong>Поставка, монтаж, сдача с гарантией</strong></p>
+            </div>
+        </div>  
+        <div class="row">
+            <div class="map graybox col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1>Контакты</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.2798945201223!2d30.207046316262318!3d60.01043398190233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469635da1657676d%3A0x9838c6769ec634bf!2z0JrQsNC80YvRiNC-0LLQsNGPINGD0LsuLCA0ONC6MSwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5NzA4Mg!5e0!3m2!1sru!2sru!4v1485406911489" width="530" height="262" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <p>г. Санкт-Петербург, ул. Камышовая 48 к.1.</p>
+                <p>+7 (812) 646-73-83</p>
+                <p><strong>info@donaldson.spb.ru</strong></p>
+            </div>
+        </div>  
+        
     </main>
     
     <?php include ("footer.php"); ?>

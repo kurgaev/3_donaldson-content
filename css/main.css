@@ -13,6 +13,8 @@ h1 {
     font-weight: bold; 
 }
 
+
+
 .slider {
     padding: 30px;
 }
@@ -27,18 +29,103 @@ h1 {
     margin: 0 auto;
 }
 
-.about h1 {
+.graybox {
+    margin: 20px 0 20px 0;
+}
+
+.graybox h1 {
     background: #c0c0c0;
+    color: #3D3D3D;
     display: block;
     margin: 0 -15px 25px -15px;
     height: 50px;
     line-height: 50px;
     padding-left: 30px;
-    
 }
 
-.about p {
+.graybox p {
+    color: #3d3d3d;
     margin: 0 20px 0 20px;
+    text-align: justify;
+    font-size: 16px
+}
+
+.graybox span {   
+    color: #3d3d3d;
+    font-weight: bold;
+    margin: 0 20px 0 20px;
+}
+
+.bluebox {
+    background-image: url(/images/bg-design-system.png);
+    height: 89px;   
+}
+
+.bluebox img {
+    margin-top: 20px;
+}
+
+.bluebox h1 {
+    color: white;
+}
+
+.bluebox p {
+    color: #a9a9a9;
+    font-size: 17px;
+}
+
+.button2 {
+    background-image: url(/images/img0005.png);
+    cursor: pointer;
+    width: 198px;
+    height: 44px;
+    margin-top: 20px;
+    //z-index: 1;
+}
+
+.button2:hover {
+    background-image: url(/images/img0005_hover.png)
+}
+
+.button2 a {
+    display: none;
+    //z-index: -1;
+}
+
+.whitebox h1 {
+    padding-left: 30px;
+}
+
+.whitebox h6 {
+    color: #0081c6;
+    font-size: 64px;
+    float: left;
+}
+
+.whitebox img {
+    width: 90px;
+    margin-top: 40px;
+}
+
+.whitebox p {
+    font-family: Calibri;
+    clear: both;
+    color: #3d3d3d;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.whitebox p strong {
+    font-size: 19px;
+    clear: both;
+}
+
+.map h1 {
+    clear: both;
+}
+
+iframe {
+    float: right;
 }
 
 
