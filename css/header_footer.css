@@ -91,7 +91,7 @@ header, footer {
 }
 
 .menu {
-	height: 49px;
+	min-height: auto;
 	background: #00008B;
 	padding: 0;
 	list-style: none;
@@ -203,7 +203,7 @@ header, footer {
     display: inline-block;
   }
   .menu {
-	min-height: 49px;
+	height: 49px;
   }
   .item {
 	display: block;
