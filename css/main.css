@@ -13,8 +13,6 @@ h1 {
     font-weight: bold; 
 }
 
-
-
 .slider {
     padding: 30px;
 }
@@ -58,7 +56,7 @@ h1 {
 
 .bluebox {
     background-image: url(/images/bg-design-system.png);
-    height: 89px;   
+    min-height: 89px;   
 }
 
 .bluebox img {
@@ -74,7 +72,7 @@ h1 {
     font-size: 17px;
 }
 
-.button2 {
+.big-button {
     background-image: url(/images/img0005.png);
     cursor: pointer;
     width: 198px;
@@ -83,11 +81,11 @@ h1 {
     //z-index: 1;
 }
 
-.button2:hover {
+.big-button:hover {
     background-image: url(/images/img0005_hover.png)
 }
 
-.button2 a {
+.big-button a {
     display: none;
     //z-index: -1;
 }
@@ -135,5 +133,24 @@ iframe {
 
 
 @media screen and (max-width: 768px) {
-
+    iframe {
+        float: none;
+        margin: 0 auto;
+        width: auto;
+        border: 1px solid black;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .map p {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    .bluebox {
+        height: auto;
+    }
+    .big-button {
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
 }

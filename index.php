@@ -77,46 +77,44 @@
         </div>        
         
         <div class="row bluebox">
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-lg-offset-1">
+            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
                 <img src="images/3.png" alt="">
             </div>
-            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-7 col-md-7 col-lg-7">
                 <h1>Закажите бесплатный расчет стоимости заказа!</h1>
                 <p>Мы свяжемся с вами и выполним расчет в катчайшие сроки</p>
             </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                <div class="button2"><a href="#">Оформить заявку</a></div>
-                <!--
-                <img class="button" src="images/img0005.png" alt="">
-                -->
+            <!-- <div class="clearfix visible-xs-block hidden-sm hidden-md hidden-lg"></div> -->
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+                <div class="big-button center-block"><a href="#">Оформить заявку</a></div>
             </div>
         </div> 
         
-        <div class="row whitebox">
+        <div class="row whitebox clearfix">
             <h1>Как мы работаем</h1>
-            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-2 col-lg-offset-1">
+            <div class=" col-xs-12 col-sm-12 col-md-2 col-lg-2 col-lg-offset-1">
                 <h6>1</h6>
                 <img src="/images/img0217.png" alt="">                
                 <p><strong>Заявка - запрос коммерческого предложения</strong></p>
                 <p>Поставьте нам задачу любым удобным для Вас способом</p>
             </div>    
-            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-2">
+            <div class=" col-xs-12 col-sm-12 col-md-2 col-lg-2">
                 <h6>2</h6>
                 <img src="/images/img0217.png" alt="">                
                 <p><strong>Выезд специалиста</strong></p>
                 <p>по СПб и ЛО в течении 24ч с момента обращения</p>
             </div>                    
-            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-2">
+            <div class=" col-xs-12 col-sm-12 col-md-2 col-lg-2">
                 <h6>3</h6>      
                 <img src="/images/img0217.png" alt="">                
                 <p><strong>Технико-экономическое обоснование</strong></p>
             </div>                
-            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-2">
+            <div class=" col-xs-12 col-sm-12 col-md-2 col-lg-2">
                 <h6>4</h6>
                 <img src="/images/img0217.png" alt="">                
                 <p><strong>Предоставление КП</strong></p>
             </div>                    
-            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-3">
+            <div class=" col-xs-12 col-sm-12 col-md-3 col-lg-3">
                 <h6>5</h6>
                 <p><strong>Поставка, монтаж, сдача с гарантией</strong></p>
             </div>
@@ -131,7 +129,6 @@
                 <p><strong>info@donaldson.spb.ru</strong></p>
             </div>
         </div>  
-        
     </main>
     
     <?php include ("footer.php"); ?>
